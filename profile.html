@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <div class="clock" id="clock"></div>
+    <script src="script.js"></script>
+    <div class="container">
+        <h1>My Profile</h1>
+        <img src="C:\Users\prabhdeep2008\OneDrive\Documents\VS CODE\.vscode\images\IMG_2277 (1).jpg" class="profile-img" />
+        <p style="color: #000000;">My name is Prabhdeep Singh Khurana</p>
+        <p>Email: prabhdeep24823@gmail.com</p>
+        <p>Phone: (778) 822-0733</p>
+    </div>
+
+    <div class="container">
+        <h2>Contact Me</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required><br><br>
+            
+            <label for="purpose">Purpose of Contact:</label>
+            <select id="purpose" name="purpose" required>
+                <option value="" disabled selected>Select a purpose</option>
+                <option value="general_question">General Question</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+            
+            <label for="subscribe">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                Subscribe to our newsletter
+            </label><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
